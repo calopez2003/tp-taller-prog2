@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Conceptos — TP Taller Prog 2</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="container">
+    <h1>Conceptos de la materia</h1>
+
+    <section class="card">
+      <h2>Cargar concepto</h2>
+      <form id="concept-form">
+        <label>Título
+          <input id="titulo" required placeholder="Ej: API REST" />
+        </label>
+        <label>Descripción
+          <textarea id="desarrollo" rows="4" required placeholder="Descripción breve…"></textarea>
+        </label>
+        <button type="submit">Agregar</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <div class="actions">
+        <button id="btn-refresh">Refrescar</button>
+        <button id="btn-delete-all" class="danger">Eliminar todos</button>
+      </div>
+      <h2>Lista</h2>
+      <ul id="lista"></ul>
+    </section>
+  </main>
+
+  <script src="/script.js"></script>
+</body>
+</html>
