@@ -1,0 +1,24 @@
+{
+  "name": "tp-taller-prog2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calopez2003/tp-taller-prog2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calopez2003/tp-taller-prog2/issues"
+  },
+  "homepage": "https://github.com/calopez2003/tp-taller-prog2#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
